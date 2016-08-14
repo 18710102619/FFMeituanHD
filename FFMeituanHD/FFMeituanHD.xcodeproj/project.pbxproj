@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361FC8061D6082C6008FEADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8051D6082C6008FEADA /* main.m */; };
+		361FC8091D6082C6008FEADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8081D6082C6008FEADA /* AppDelegate.m */; };
+		361FC8111D6082C6008FEADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361FC8101D6082C6008FEADA /* Assets.xcassets */; };
+		361FC81F1D6082C6008FEADA /* FFMeituanHDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC81E1D6082C6008FEADA /* FFMeituanHDTests.m */; };
+		361FC82A1D6082C6008FEADA /* FFMeituanHDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8291D6082C6008FEADA /* FFMeituanHDUITests.m */; };
+		361FC87B1D60B3E6008FEADA /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC86B1D60B3E6008FEADA /* UIBarButtonItem+Extension.m */; };
+		361FC87C1D60B3E6008FEADA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC86D1D60B3E6008FEADA /* UIView+Extension.m */; };
+		361FC87D1D60B3E6008FEADA /* FFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8721D60B3E6008FEADA /* FFHomeViewController.m */; };
+		361FC87E1D60B3E6008FEADA /* FFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8741D60B3E6008FEADA /* FFNavigationController.m */; };
+		361FC87F1D60B3E6008FEADA /* FFHomeTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8791D60B3E6008FEADA /* FFHomeTopItem.m */; };
+		361FC8801D60B3E6008FEADA /* FFHomeTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361FC87A1D60B3E6008FEADA /* FFHomeTopItem.xib */; };
+		361FC8821D60B43F008FEADA /* FFHomeDropdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361FC8811D60B43F008FEADA /* FFHomeDropdown.xib */; };
+		361FC8851D60B45D008FEADA /* FFHomeDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 361FC8841D60B45D008FEADA /* FFHomeDropdown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361FC81B1D6082C6008FEADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361FC7F91D6082C6008FEADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361FC8001D6082C6008FEADA;
+			remoteInfo = FFMeituanHD;
+		};
+		361FC8261D6082C6008FEADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361FC7F91D6082C6008FEADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361FC8001D6082C6008FEADA;
+			remoteInfo = FFMeituanHD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361FC8011D6082C6008FEADA /* FFMeituanHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMeituanHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FC8051D6082C6008FEADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		361FC8071D6082C6008FEADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		361FC8081D6082C6008FEADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		361FC8101D6082C6008FEADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361FC8151D6082C6008FEADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361FC81A1D6082C6008FEADA /* FFMeituanHDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFMeituanHDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FC81E1D6082C6008FEADA /* FFMeituanHDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFMeituanHDTests.m; sourceTree = "<group>"; };
+		361FC8201D6082C6008FEADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361FC8251D6082C6008FEADA /* FFMeituanHDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFMeituanHDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FC8291D6082C6008FEADA /* FFMeituanHDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFMeituanHDUITests.m; sourceTree = "<group>"; };
+		361FC82B1D6082C6008FEADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361FC84B1D609E76008FEADA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		361FC86A1D60B3E6008FEADA /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		361FC86B1D60B3E6008FEADA /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		361FC86C1D60B3E6008FEADA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		361FC86D1D60B3E6008FEADA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		361FC86F1D60B3E6008FEADA /* FFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFConst.h; sourceTree = "<group>"; };
+		361FC8711D60B3E6008FEADA /* FFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomeViewController.h; sourceTree = "<group>"; };
+		361FC8721D60B3E6008FEADA /* FFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomeViewController.m; sourceTree = "<group>"; };
+		361FC8731D60B3E6008FEADA /* FFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavigationController.h; sourceTree = "<group>"; };
+		361FC8741D60B3E6008FEADA /* FFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavigationController.m; sourceTree = "<group>"; };
+		361FC8781D60B3E6008FEADA /* FFHomeTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomeTopItem.h; sourceTree = "<group>"; };
+		361FC8791D60B3E6008FEADA /* FFHomeTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomeTopItem.m; sourceTree = "<group>"; };
+		361FC87A1D60B3E6008FEADA /* FFHomeTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFHomeTopItem.xib; sourceTree = "<group>"; };
+		361FC8811D60B43F008FEADA /* FFHomeDropdown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFHomeDropdown.xib; sourceTree = "<group>"; };
+		361FC8831D60B45D008FEADA /* FFHomeDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHomeDropdown.h; sourceTree = "<group>"; };
+		361FC8841D60B45D008FEADA /* FFHomeDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHomeDropdown.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361FC7FE1D6082C6008FEADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8171D6082C6008FEADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8221D6082C6008FEADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361FC7F81D6082C6008FEADA = {
+			isa = PBXGroup;
+			children = (
+				361FC8031D6082C6008FEADA /* FFMeituanHD */,
+				361FC81D1D6082C6008FEADA /* FFMeituanHDTests */,
+				361FC8281D6082C6008FEADA /* FFMeituanHDUITests */,
+				361FC8021D6082C6008FEADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361FC8021D6082C6008FEADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8011D6082C6008FEADA /* FFMeituanHD.app */,
+				361FC81A1D6082C6008FEADA /* FFMeituanHDTests.xctest */,
+				361FC8251D6082C6008FEADA /* FFMeituanHDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361FC8031D6082C6008FEADA /* FFMeituanHD */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8681D60B3E6008FEADA /* Classes */,
+				361FC8071D6082C6008FEADA /* AppDelegate.h */,
+				361FC8081D6082C6008FEADA /* AppDelegate.m */,
+				361FC8041D6082C6008FEADA /* Supporting Files */,
+			);
+			path = FFMeituanHD;
+			sourceTree = "<group>";
+		};
+		361FC8041D6082C6008FEADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8101D6082C6008FEADA /* Assets.xcassets */,
+				361FC8151D6082C6008FEADA /* Info.plist */,
+				361FC8051D6082C6008FEADA /* main.m */,
+				361FC84B1D609E76008FEADA /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		361FC81D1D6082C6008FEADA /* FFMeituanHDTests */ = {
+			isa = PBXGroup;
+			children = (
+				361FC81E1D6082C6008FEADA /* FFMeituanHDTests.m */,
+				361FC8201D6082C6008FEADA /* Info.plist */,
+			);
+			path = FFMeituanHDTests;
+			sourceTree = "<group>";
+		};
+		361FC8281D6082C6008FEADA /* FFMeituanHDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8291D6082C6008FEADA /* FFMeituanHDUITests.m */,
+				361FC82B1D6082C6008FEADA /* Info.plist */,
+			);
+			path = FFMeituanHDUITests;
+			sourceTree = "<group>";
+		};
+		361FC8681D60B3E6008FEADA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8691D60B3E6008FEADA /* Category */,
+				361FC86E1D60B3E6008FEADA /* Common */,
+				361FC8701D60B3E6008FEADA /* Controller */,
+				361FC8751D60B3E6008FEADA /* Model */,
+				361FC8761D60B3E6008FEADA /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		361FC8691D60B3E6008FEADA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				361FC86A1D60B3E6008FEADA /* UIBarButtonItem+Extension.h */,
+				361FC86B1D60B3E6008FEADA /* UIBarButtonItem+Extension.m */,
+				361FC86C1D60B3E6008FEADA /* UIView+Extension.h */,
+				361FC86D1D60B3E6008FEADA /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		361FC86E1D60B3E6008FEADA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				361FC86F1D60B3E6008FEADA /* FFConst.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		361FC8701D60B3E6008FEADA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8731D60B3E6008FEADA /* FFNavigationController.h */,
+				361FC8741D60B3E6008FEADA /* FFNavigationController.m */,
+				361FC8711D60B3E6008FEADA /* FFHomeViewController.h */,
+				361FC8721D60B3E6008FEADA /* FFHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		361FC8751D60B3E6008FEADA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		361FC8761D60B3E6008FEADA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8771D60B3E6008FEADA /* HomeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		361FC8771D60B3E6008FEADA /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				361FC8781D60B3E6008FEADA /* FFHomeTopItem.h */,
+				361FC8791D60B3E6008FEADA /* FFHomeTopItem.m */,
+				361FC87A1D60B3E6008FEADA /* FFHomeTopItem.xib */,
+				361FC8831D60B45D008FEADA /* FFHomeDropdown.h */,
+				361FC8841D60B45D008FEADA /* FFHomeDropdown.m */,
+				361FC8811D60B43F008FEADA /* FFHomeDropdown.xib */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361FC8001D6082C6008FEADA /* FFMeituanHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361FC82E1D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHD" */;
+			buildPhases = (
+				361FC7FD1D6082C6008FEADA /* Sources */,
+				361FC7FE1D6082C6008FEADA /* Frameworks */,
+				361FC7FF1D6082C6008FEADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFMeituanHD;
+			productName = FFMeituanHD;
+			productReference = 361FC8011D6082C6008FEADA /* FFMeituanHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361FC8191D6082C6008FEADA /* FFMeituanHDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361FC8311D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHDTests" */;
+			buildPhases = (
+				361FC8161D6082C6008FEADA /* Sources */,
+				361FC8171D6082C6008FEADA /* Frameworks */,
+				361FC8181D6082C6008FEADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361FC81C1D6082C6008FEADA /* PBXTargetDependency */,
+			);
+			name = FFMeituanHDTests;
+			productName = FFMeituanHDTests;
+			productReference = 361FC81A1D6082C6008FEADA /* FFMeituanHDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361FC8241D6082C6008FEADA /* FFMeituanHDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361FC8341D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHDUITests" */;
+			buildPhases = (
+				361FC8211D6082C6008FEADA /* Sources */,
+				361FC8221D6082C6008FEADA /* Frameworks */,
+				361FC8231D6082C6008FEADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361FC8271D6082C6008FEADA /* PBXTargetDependency */,
+			);
+			name = FFMeituanHDUITests;
+			productName = FFMeituanHDUITests;
+			productReference = 361FC8251D6082C6008FEADA /* FFMeituanHDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361FC7F91D6082C6008FEADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FF;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张玲玉";
+				TargetAttributes = {
+					361FC8001D6082C6008FEADA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					361FC8191D6082C6008FEADA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 361FC8001D6082C6008FEADA;
+					};
+					361FC8241D6082C6008FEADA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 361FC8001D6082C6008FEADA;
+					};
+				};
+			};
+			buildConfigurationList = 361FC7FC1D6082C6008FEADA /* Build configuration list for PBXProject "FFMeituanHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361FC7F81D6082C6008FEADA;
+			productRefGroup = 361FC8021D6082C6008FEADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361FC8001D6082C6008FEADA /* FFMeituanHD */,
+				361FC8191D6082C6008FEADA /* FFMeituanHDTests */,
+				361FC8241D6082C6008FEADA /* FFMeituanHDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361FC7FF1D6082C6008FEADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361FC8111D6082C6008FEADA /* Assets.xcassets in Resources */,
+				361FC8821D60B43F008FEADA /* FFHomeDropdown.xib in Resources */,
+				361FC8801D60B3E6008FEADA /* FFHomeTopItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8181D6082C6008FEADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8231D6082C6008FEADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361FC7FD1D6082C6008FEADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361FC87B1D60B3E6008FEADA /* UIBarButtonItem+Extension.m in Sources */,
+				361FC87D1D60B3E6008FEADA /* FFHomeViewController.m in Sources */,
+				361FC8091D6082C6008FEADA /* AppDelegate.m in Sources */,
+				361FC87F1D60B3E6008FEADA /* FFHomeTopItem.m in Sources */,
+				361FC87C1D60B3E6008FEADA /* UIView+Extension.m in Sources */,
+				361FC8851D60B45D008FEADA /* FFHomeDropdown.m in Sources */,
+				361FC8061D6082C6008FEADA /* main.m in Sources */,
+				361FC87E1D60B3E6008FEADA /* FFNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8161D6082C6008FEADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361FC81F1D6082C6008FEADA /* FFMeituanHDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361FC8211D6082C6008FEADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361FC82A1D6082C6008FEADA /* FFMeituanHDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361FC81C1D6082C6008FEADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361FC8001D6082C6008FEADA /* FFMeituanHD */;
+			targetProxy = 361FC81B1D6082C6008FEADA /* PBXContainerItemProxy */;
+		};
+		361FC8271D6082C6008FEADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361FC8001D6082C6008FEADA /* FFMeituanHD */;
+			targetProxy = 361FC8261D6082C6008FEADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		361FC82C1D6082C6008FEADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		361FC82D1D6082C6008FEADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361FC82F1D6082C6008FEADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = FFMeituanHD/PrefixHeader.pch;
+				INFOPLIST_FILE = FFMeituanHD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		361FC8301D6082C6008FEADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = FFMeituanHD/PrefixHeader.pch;
+				INFOPLIST_FILE = FFMeituanHD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		361FC8321D6082C6008FEADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFMeituanHDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFMeituanHD.app/FFMeituanHD";
+			};
+			name = Debug;
+		};
+		361FC8331D6082C6008FEADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFMeituanHDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFMeituanHD.app/FFMeituanHD";
+			};
+			name = Release;
+		};
+		361FC8351D6082C6008FEADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFMeituanHDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFMeituanHD;
+			};
+			name = Debug;
+		};
+		361FC8361D6082C6008FEADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFMeituanHDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.FFMeituanHDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFMeituanHD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361FC7FC1D6082C6008FEADA /* Build configuration list for PBXProject "FFMeituanHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361FC82C1D6082C6008FEADA /* Debug */,
+				361FC82D1D6082C6008FEADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361FC82E1D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361FC82F1D6082C6008FEADA /* Debug */,
+				361FC8301D6082C6008FEADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361FC8311D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361FC8321D6082C6008FEADA /* Debug */,
+				361FC8331D6082C6008FEADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361FC8341D6082C6008FEADA /* Build configuration list for PBXNativeTarget "FFMeituanHDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361FC8351D6082C6008FEADA /* Debug */,
+				361FC8361D6082C6008FEADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361FC7F91D6082C6008FEADA /* Project object */;
+}
